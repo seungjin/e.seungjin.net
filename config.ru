@@ -1,6 +1,3 @@
-
-
-
 require 'vendor/sinatra/lib/sinatra.rb'
 #require 'rubygems'
 #require 'sinatra'
