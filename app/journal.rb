@@ -2,7 +2,7 @@
 
 
 get '/journal' do 
-	"just j"
+	haml :"journal/index"
 end
 
 get '/journal/:id' do

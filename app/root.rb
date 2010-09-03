@@ -4,7 +4,7 @@ require 'haml'
 
 get '/' do
   #'aaaa'
-  haml :index
+  haml :"root/index"
 end
 
 post '/' do
