@@ -9,6 +9,6 @@ set :run, false
 set :environment, :production
 set :public, File.dirname(__FILE__) + '/public'
 
-require 'bootstrap.rb'
+require 'main.rb'
 
 run Sinatra::Application
