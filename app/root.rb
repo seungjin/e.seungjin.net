@@ -1,15 +1,16 @@
 
 
+require 'haml'
 
-
-get '/' do 
-    haml :index
+get '/' do
+  'aaaa'
+  #haml :index
 end
 
 post '/' do
 end
 
-post '/' do
+put '/' do
 end
 
 delete '/' do 
