@@ -2,13 +2,15 @@
 
 ## CONFIGURATION
 
-configure :development do 
+require 'dm-core'
+
+configure :development do
   DataMapper.setup(:default, {
-                     :adapter => 'mysql',
-                     :host => '',
+                     :adapter => 'sqlite',
+                     :host => 'localhost',
                      :username => '',
                      :password => '',
-                     :database => ''
+                     :database => 'db/my_dev_db'
                    })
 
   DataMapper::Logger.new(STDOUT, :debug)

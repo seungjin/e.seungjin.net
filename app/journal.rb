@@ -1,4 +1,5 @@
 
+require 'sinatra'
 
 
 get '/journal' do 
