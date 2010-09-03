@@ -1,7 +1,12 @@
 
 
+
 get '/journal' do 
-    "Hello"
+	"just j"
+end
+
+get '/journal/:id' do
+        "hello #{params[:id]}"
 end
 
 post '/journal' do 
@@ -13,15 +18,4 @@ end
 delete '/journal' do 
 end
 
-get %r{/journal/([\d]+)} do |c|
-    "Hello, #{c}!"
-end
-
-get %r{/journal/recent/([\d]+)} do |c|
-    "Hello, #{c}!"
-end
-
-get %r{/journal/([\w]+)} do |c|
-    "Hello, #{c}!"
-end
 
