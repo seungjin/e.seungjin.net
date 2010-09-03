@@ -3,7 +3,7 @@
 
 
 get '/' do 
-    haml root/:index
+    haml :index
 end
 
 post '/' do
