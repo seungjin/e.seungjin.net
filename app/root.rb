@@ -3,8 +3,8 @@
 require 'haml'
 
 get '/' do
-  'aaaa'
-  #haml :index
+  #'aaaa'
+  haml :index
 end
 
 post '/' do
